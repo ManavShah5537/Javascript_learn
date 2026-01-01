@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="position: fixed; width: 100%; height: 64px; background-color: black; z-index: 100;">
+        <nav style="position: absolute; top: 0px; z-index: 8;">
+        <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/018/930/579/non_2x/spotify-app-logo-spotify-icon-transparent-free-png.png" style="position: relative; bottom: 3px;" height="62" alt="logo"></a>
+        <a id="buthome" href="#"><img src="https://cdn3.emoji.gg/emojis/7184-spotify-home.png" height="62" alt="home"></a>
+        <!-- <a href="#"><img src=""></a> -->
+        <input type="text" id="song" placeholder="What do you want to play?"/>
+        <!-- <div id="container"> -->
+        <b>
+            <a href="#" class="nav" id="pre">Premium</a>
+        <a href="#" class="nav">Support </a>
+        <a href="#" class="nav">Download</a>
+        <a href="#" class="nav">Install App</a>
+        <a href="#" class="nav">Sign up</a>
+        <a href="#" class="nav" id="login">Login</a>
+        </b>
+        <!-- </div> -->
+        </nav>
+    </div>
+    <div style="height: 800px; position: absolute; top: 70px; width: 282px; background-color: #151718; border-radius: 15px;">
+        <header style="height: 52px; width: 282px; padding: 12px 16px 8px 0px; color: white; font-size: 20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>Your Library</b> <button style="color: white; background-color: #24282a; font-size:100%; border-radius: 50%; position: relative; left: 120px;">+</button>
+        <section style="background-color: #1F1F1F; border-radius: 10px; width: 260px; height: 100px; position: relative; top: 50px; left: 10px; margin-top: 8px; margin-bottom: 8px;">
+            <span style="font-size: 18px; color: white; position: relative; left: 20px;"><b>Create your first playlist</b></span>
+        </br>
+            <span style="font-size: 15px; color: white; position: relative; left: 20px;">It's easy, we'll help you</span>
+            <br>
+            <a href="#" style="color:black; background-color: white; padding: 3px 5px 6px 5px; border-radius: 15px; text-align: center; font-size: 14px; position: relative; top: 6px; left: 20px;"> <b>Create playlist</b></a>
+        </section>
+        <section style="background-color: #1F1F1F; border-radius: 10px; width: 260px; height: 110px; position: relative; top: 60px; left: 10px; margin-top: 8px; margin-bottom: 8px;">
+            <span style="position:relative; font-size: 18px; left: 20px;"><b>Let's find some podcasts to follow</b></span><br>
+            <span style="font-size: 15px; color: white; position: relative; left: 20px;">We'll keep you updated on new episodes</span>
+        </section>
+        <div style="width: 260px; height: 108.8px; margin: 32px 0px 32px 0px; padding: 0px 24px 0px 24px; position: relative; left: 10px; top: 60px;">
+            <a href="#"><span style="margin: 0px 16px 0px 0px; font-size: 11px; color: #b3b3b3;">Legal</span></a>
+            <a href="#"><span style="margin: 0px 16px 0px 0px; font-size: 11px; color: #b3b3b3;">Safety & Privacy Center</span></a>
+            <br>
+            <a href="#"><span style="margin: 0px 16px 0px 0px; font-size: 11px; color: #b3b3b3;">Privacy Policy</span></a>
+            <a href="#"><span style="margin: 0px 16px 0px 0px; font-size: 11px; color: #b3b3b3;">Cookies</span></a>
+            <a href="#"><span style="margin: 0px 16px 0px 0px; font-size: 11px; color: #b3b3b3;">About Ads</span></a><br>
+            <a href="#"><span style="margin: 0px 16px 0px 0px; font-size: 11px; color: #b3b3b3;">Accessibility</span></a>
+            <br>
+            <a href="#"><span style="margin: 0px 16px 0px 0px; font-size: 12px; color: white;">Cookies</span></a><br>
+            <button style="border-radius: 15px; padding: 4px 16px 4px 36px; font-size: 14px; background-color: black; color: white; position: relative; top: 40px; border: 1px
+             solid white; height: 32px;"><b>English</b></button>
+        </div>
+        </header>
+    </div>
+    
+    <div id="content" style="background-color: #151718; border-radius: 15px; width: 1200px; height: 2004.6px; color: white; position: absolute; top: 70px; left: 300px; ">
+        <div style="color: white; font-size: 24px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; position: relative; top: 24px; left: 16px;"><b>Trending songs</b></div>
+        <a href="#"><span style="font-size: 14px; position: relative; left: 1100px; bottom: 270px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Show all</b></span></a>
+        <div class="tsongs" style="background-image:url(abl2.png); background-size: contain; background-repeat: no-repeat; background-color: #151718;"></div>
+        <div class="tsongs" style="background-image: url(wavy.png); background-size: contain; background-repeat: no-repeat; background-color: #151718;"></div>
+        <div class="tsongs" style="background-image: url(ig.png); background-size: contain;"></div>
+        <div class="tsongs" style="background-image: url(dwas.png); background-size: contain;"></div>
+        <div class="tsongs" style="background-image: url(qaaf.png); background-size: contain;"></div>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 100px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Apna Bana Le</b></span></a>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 340px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Wavy</b></span></a>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 530px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>I Guess</b></span></a>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 700px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Die With A Smile</b></span></a>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 930px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Qaafirana</b></span></a>
+
+        <div style="color: white; font-size: 24px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; position: relative; top: 24px; left: 16px;"><b>Popular artists</b></div>
+        <a href="#"><span style="font-size: 14px; position: relative; left: 1100px; bottom: 270px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Show all</b></span></a>
+        <div class="tsongs" style="background-image:url(arijit.png); background-size: contain; background-repeat: no-repeat; background-color: #151718;"></div>
+        <div class="tsongs" style="background-image: url(krsna.png); background-size: contain; background-repeat: no-repeat; background-color: #151718;"></div>
+        <div class="tsongs" style="background-image: url(shreya.png); background-size: contain;"></div>
+        <div class="tsongs" style="background-image: url(weeknd.png); background-size: contain;"></div>
+        <div class="tsongs" style="background-image: url(pritm.png); background-size: contain;"></div>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 100px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Apna Bana Le</b></span></a>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 340px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Wavy</b></span></a>
+        <a href="https://www.youtube.com/watch?v=Qg9LxRHLbAk"><span style="position:absolute; color: white; top: 260px; left: 530px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>I Guess</b></span></a>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 700px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Die With A Smile</b></span></a>
+        <a href="#"><span style="position:absolute; color: white; top: 260px; left: 930px; font-size: 16px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Qaafirana</b></span></a>
+    </div>
+</body>
+</html>

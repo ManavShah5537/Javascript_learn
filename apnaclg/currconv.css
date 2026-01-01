@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 224, 224);
+    min-height: 100vh;
+}
+
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 45vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.sel-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.selectf {
+    padding: 10px;
+}
+
+.selt {
+    padding: 10px;
+}
+
+select {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.from {
+    display:grid;
+}
