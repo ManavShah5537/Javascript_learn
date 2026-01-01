@@ -1,0 +1,33 @@
+#signal{
+    height: 400px;
+    width: 100px;
+    background-color: black;
+    border-radius: 25px;
+    border: 3px solid white;
+} 
+
+#red{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    margin: 0px 10px 30px 10px; 
+    /* border: 10px solid white; */
+}
+
+#yellow{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 0px 10px 30px 10px;
+}
+
+#green{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0px 10px 30px 10px;
+}
