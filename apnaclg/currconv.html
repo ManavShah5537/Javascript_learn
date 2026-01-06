@@ -12,7 +12,7 @@
         <h1>Currency Converter</h1>
         <div class="container">
             <h3>Enter Amount</h3>
-            <input type="text">
+            <input type="text" id="amount">
             <div class="sel-container">
                 <div class="selectf">
                     <p>From</p>
@@ -36,7 +36,8 @@
                     </select>
                 </div>
             </div>
-            <p>1 USD = 80 INR</p>
+            <p id="exch-info">1 USD = 80 INR</p>
+            <p id="total">Total Amount: </p>
             <button>Get Exchange Rate</button>
         </div>
     </form>
